@@ -11,8 +11,8 @@ using TH01.Data;
 namespace TH01.Migrations
 {
     [DbContext(typeof(TH01DbContext))]
-    [Migration("20250521021735_UpdateModel")]
-    partial class UpdateModel
+    [Migration("20250523142004_FirstCreate")]
+    partial class FirstCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

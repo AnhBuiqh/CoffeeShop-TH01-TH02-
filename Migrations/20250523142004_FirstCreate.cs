@@ -21,7 +21,7 @@ namespace TH01.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Detail = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,4)", nullable: false),
                     IsTrendingProduct = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
